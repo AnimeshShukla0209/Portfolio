@@ -1,0 +1,55 @@
+@import '../../styles.css';
+.navbar {
+    background-color: #1b1b1b;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f8f9fa;
+}
+
+.nav-link {
+    color: #adb5bd;
+}
+
+.nav-item:hover {
+    box-shadow: 0 4px 8px rgba(255, 240, 240, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.nav-link.active {
+    color: white !important; /* Bootstrap's green or use your preferred green */
+}
+
+
+/* .nav-link:hover,
+.nav-link.active {
+    color: #1f5fa0;
+} */
+
+.nav-number {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #f8f9fa;
+    margin-right: 5px;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.bg-dark {
+    background-color: hsl(212, 26%, 14%) !important;
+}
+
+.surname {
+    font-size: 20px;
+    font-weight: bold;
+}

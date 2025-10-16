@@ -1,0 +1,49 @@
+@import '../../styles.css';
+
+  @media (max-width: 768px) {
+    .about-picture {
+      width: 250px;
+    }
+  }
+  
+.left {
+    text-align: center;
+    padding: 20px;
+}
+
+.left img.about-picture {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.left img.about-picture:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+
+.right {
+    padding: 20px;
+}
+
+.default-container {
+    padding: 40px 20px;
+}
+
+.default-highlight {
+    color: #2baa36;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+}
